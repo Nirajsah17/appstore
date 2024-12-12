@@ -1,0 +1,41 @@
+:host {
+  text-align: center;
+}
+
+nz-header,
+nz-footer {
+  background: #fff;
+  color: #000;
+  border: 1px solid #000
+}
+
+nz-footer {
+  line-height: 1.5;
+}
+
+nz-sider {
+  background: #fff;
+  color: #000;
+  line-height: 120px;
+  width: 240px;
+}
+
+nz-content {
+  background: #fff;
+  color: #000;
+  min-height: 120px;
+  line-height: 120px;
+  border: 1px solid #000
+
+}
+
+nz-layout {
+  margin-bottom: 48px;
+  width: 100%;
+  height: 100%;
+}
+
+nz-layout nz-layout,
+nz-layout:last-child {
+  margin: 0;
+}
